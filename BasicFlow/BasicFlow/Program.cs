@@ -10,16 +10,16 @@ namespace BasicFlow
             Console.WriteLine("Again i'm in class main");
             Console.ReadLine();
         }
-        static void Run()
+        static void Run()//static declayer method
         {
             Console.WriteLine("i'm in sub class 'static void Run'");
         }
     }
-    public class Computer
+    public class Computer// class out of scope of main class require static declayer
     {
         //Console.WriteLine("i'm in class 'Computer'");
     }
-    class Enemy
+    class Enemy//again out of scope again  require 
     {
         //Console.WriteLine("I'm in 'class Enemy'");
     }

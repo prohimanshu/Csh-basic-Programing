@@ -7,7 +7,7 @@ namespace Some_keyword_VarEnumStruct
         enum Gender { male,femail,gey,lasbian}
 
         static void Main(string[] a)
-        {/*
+        {
             Console.WriteLine("=====Var And Dynamic keyword");
             var test = 10;
             Console.WriteLine(test);
@@ -41,7 +41,7 @@ namespace Some_keyword_VarEnumStruct
                 default:
                     Console.WriteLine("i'm god");
                     break;
-            }*/
+            }
             Console.WriteLine("====Structure test======");
             Student stu = new Student();
             stu.Age = 21;

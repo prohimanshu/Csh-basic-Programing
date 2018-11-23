@@ -25,6 +25,7 @@ namespace method_passByValueAndPassByRefrance
             Console.WriteLine("i'm in main method and before value pass by ref {0}",abc);
             byref(ref abc);
             Console.WriteLine("i'm back on main method and valude of abc is {0}", abc);
+            Console.ReadLine();
         }
     }
 }
